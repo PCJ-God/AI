@@ -1,0 +1,4 @@
+chat_model_name: deepseek-chat
+base_url: https://chat.cqjtu.edu.cn/ds/api/r1
+api_key: sk-b9dcfee4f22de9b0428da662d66a4ff1
+embedding_model_name: BAAI/bge-large-zh-v1.5

@@ -1,0 +1,58 @@
+2026-03-23 12:40:58,535 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-23 12:40:58,536 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 查询重庆南岸的天气
+2026-03-23 12:41:21,723 - agentcyi - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-03-23 12:41:21,723 - agentcyi - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '重庆'}
+2026-03-23 12:41:22,099 - agentcyi - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-03-23 12:41:26,776 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-23 12:41:26,783 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | {"status":0,"result":{"location":{"areacode":"101040100","name":"重庆","country":"中国","path":"重庆,重庆市,重庆市,中国"},"realtime":{"text":"雾","code":"18","temp":17.0,"feels_like":17,"rh":83,"wind_class":"1级","wind_speed":0.8,"wind_dir":"西北风","wind_angle":308,"prec":0.0,"prec_time":"2026-03-23 12:00:00","clouds":95,"vis":9500,"pressure":984,"dew":14,"uv":2,"weight":2,"brief":"雾气缭绕","detail":"雾气缭绕，出行注意安全哦"},"last_update":"2026-03-23 12:40"}}
+2026-03-23 12:42:14,547 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-23 12:42:14,547 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你好
+2026-03-23 12:43:41,382 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-23 12:43:41,382 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 查询重庆的天气
+2026-03-23 12:44:32,369 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-23 12:44:32,369 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 查询重庆的天气
+2026-03-23 12:44:42,721 - agentcyi - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-03-23 12:44:42,721 - agentcyi - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '重庆'}
+2026-03-23 12:44:42,983 - agentcyi - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-03-23 12:44:47,636 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-23 12:44:47,637 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | {"status":0,"result":{"location":{"areacode":"101040100","name":"重庆","country":"中国","path":"重庆,重庆市,重庆市,中国"},"realtime":{"text":"雾","code":"18","temp":17.0,"feels_like":17,"rh":83,"wind_class":"1级","wind_speed":0.8,"wind_dir":"西北风","wind_angle":308,"prec":0.0,"prec_time":"2026-03-23 12:00:00","clouds":95,"vis":9500,"pressure":984,"dew":14,"uv":2,"weight":2,"brief":"雾气缭绕","detail":"雾气缭绕，出行注意安全哦"},"last_update":"2026-03-23 12:43"}}
+2026-03-23 12:48:15,116 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-23 12:48:15,117 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 查询重庆的天气
+2026-03-23 12:48:29,740 - agentcyi - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-03-23 12:48:29,740 - agentcyi - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '重庆'}
+2026-03-23 12:48:30,027 - agentcyi - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-03-23 12:48:34,697 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-23 12:48:34,697 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | {"status":0,"result":{"location":{"areacode":"101040100","name":"重庆","country":"中国","path":"重庆,重庆市,重庆市,中国"},"realtime":{"text":"雾","code":"18","temp":17.0,"feels_like":17,"rh":83,"wind_class":"1级","wind_speed":0.8,"wind_dir":"西北风","wind_angle":308,"prec":0.0,"prec_time":"2026-03-23 12:00:00","clouds":95,"vis":9500,"pressure":984,"dew":14,"uv":2,"weight":2,"brief":"雾气缭绕","detail":"雾气缭绕，出行注意安全哦"},"last_update":"2026-03-23 12:47"}}
+2026-03-23 12:53:32,052 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-23 12:53:32,053 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你能知道我在哪里吗？
+2026-03-23 12:53:52,228 - agentcyi - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-23 12:53:52,229 - agentcyi - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-23 12:53:52,460 - agentcyi - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-23 12:53:56,726 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-23 12:53:56,727 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | {"code":"Success","data":{"continent":"亚洲","country":"中国","zipcode":"100010","timezone":"UTC+8","accuracy":"区县","owner":"中国联通","isp":"China UNICOM, Beijing Branch","source":"数据挖掘","areacode":"CN","adcode":"110101","asnumber":"45083","lat":"39.930941","lng":"116.409243","radius":"6.9215","prov":"北京市","city":"北京市","district":"东城区"},"charge":true,"msg":"查询成功","ip":"1.45.124.145","coordsys":"WGS84"}
+2026-03-23 12:54:48,756 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-23 12:54:48,757 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 当前是几月？
+2026-03-23 12:54:57,306 - agentcyi - INFO - middleware.py:19 - [tool monitor]执行工具：get_current_month
+2026-03-23 12:54:57,307 - agentcyi - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-23 12:54:57,307 - agentcyi - INFO - middleware.py:24 - [tool monitor]工具get_current_month调用成功
+2026-03-23 12:54:57,396 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-23 12:54:57,396 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 2025-08
+2026-03-23 13:33:03,533 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-23 13:33:03,534 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 小户型适合什么扫地机器人？
+2026-03-23 13:33:28,975 - agentcyi - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-23 13:33:28,975 - agentcyi - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '小户型 扫地机器人 选购指南'}
+2026-03-23 13:33:43,740 - agentcyi - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-23 13:33:46,692 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-23 13:33:46,692 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 选购小户型扫地机器人需重点关注以下几点：
+
+1.  **导航能力：** 优先选择激光导航，精准度高于视觉导航。
+2.  **避障能力：** 双线结构光避障效果较好，单线结构光次之，机械避障效果差。
+3.  **清洁能力：** 吸力2500Pa以上足够，关注滚刷类型（胶刷防缠绕）。
+4.  **续航能力：** 60分钟续航足够满足小户型需求。
+5.  **体积大小：**
+    *   **机身高度：** 选择8cm以下的超薄机身，便于进入家具底部清洁。
+    *   **机身直径：** 选择直径较小的机型，在狭小空间转弯更灵活。
+2026-03-23 13:34:03,426 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-23 13:34:03,427 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 谢谢
+2026-03-23 13:34:21,779 - agentcyi - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-23 13:34:21,780 - agentcyi - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | ok
